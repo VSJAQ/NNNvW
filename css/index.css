@@ -377,7 +377,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
 
     .site_logo {
         margin: 5% 0px 5% 9%;
