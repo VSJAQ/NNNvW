@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+    <body>
+        <div class="main_div">
+            <img src="assets/site_logo.svg" class="site_logo">
+            <hr/>
+            <div class="main_topic">
+                <div class="user_title">
+                    <img id="user_photo" class="user_photo">
+                    <span id="user_name" class="user_name"></span>
+                    <span id="profession" class="profession"></span>
+                </div>
+                <button class="edit_icon_b" id="edit_icon_b">
+                    <img id="edit_user_icon" src="assets/edit_icon.svg" class="edit_icon">
+                </button>
+                <div id="modal_user" class="modal_user">
+                    <div class="modal_user_content">
+                        <button id="close_btn" class="close_btn">
+                            <img id="close_btn_icon" src="assets/close_icon.svg" class="close_icon">
+                        </button>
+                        <p class="modal_user_title">Редактировать профиль</p>
+                        <input type="text" class="edit_user_inp" id="edit_name">
+                        <input type="text" class="edit_user_inp" id="edit_profession">
+                        <input class="edit_user_inp" id="edit_photo" placeholder="Оставьте пустым или введите новый URL для фото">
+                        <button class="save_user_data_btn" id="save_user_data_btn">Сохранить</button>
+                    </div>
+                </div>
+                <button id="add_title_b" class="add_title_b">
+                    <img id="edit_title_icon" src="assets/add_title_icon.svg" class="button_icon">
+                </button>
+                <div id="modal_title" class="modal_title">
+                    <div class="modal_title_content">
+                        <button id="close_title_btn" class="close_title_btn">
+                            <img id="close_title_ico" src="assets/close_icon.svg" class="close_icon">
+                        </button>
+                        <p class="modal_title_title">Добавить работу</p>
+                        <input type="text" class="edit_title_inp" id="edit_title" placeholder="Введите название работы">
+                        <input class="edit_title_inp" id="edit_poster" placeholder="Введите URL для постера">
+                        <button class="save_title_data_btn" id="save_title_data_btn">Сохранить</button>
+                    </div>
+                </div>
+            </div>
+            <div id="all_works">
+
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="js/addWorkScript.js"></script>
+<script src="js/userDataScript.js"></script>
+<script src="js/titleDataScript.js"></script>
+<script src='js/index.js'></script>
+<link rel='stylesheet' href='css/index.css' />
