@@ -341,10 +341,20 @@ hr {
         transform: scale(1.2);
     }
 
+    .close_btn {
+        top: -3.7em;
+        right: -4.2em;
+    }
+
     .modal_title_content {
         width: 50%;
         max-width: 50%;
         padding: 4% 5%;
+    }
+
+    .close_title_btn {
+        top: -3.7em;
+        right: -4.2em;
     }
 
     .first_work {
@@ -424,23 +434,29 @@ hr {
         border: 3px solid white;
         float: none;
         margin-top: 0;
-        bottom: 7%;
-        width: 3.5em;
-        height: 3.5em;
+        bottom: 6%;
+        left: 2%;
+        width: 4.5em;
+        height: 4.5em;
     }
 
     .edit_icon {
-        transform: scale(2.5);
+        transform: scale(3);
     }
 
     .modal_user_content {
         padding: 7%;
-        width: 75%;
-        max-width: 75%;
+        width: 70%;
+        max-width: 70%;
     }
 
     .modal_user_title {
         font-size: 2.5em;
+    }
+
+    .close_btn {
+        top: -4em;
+        right: -4.2em;
     }
 
     .edit_user_inp {
@@ -462,8 +478,9 @@ hr {
 
     .add_title_b {
         display: block;
-        min-width: 100%;
+        min-width: 96%;
         height: 8em;
+        margin-right: 2%;
         margin-bottom: 5.5em;
         border: 3px solid white;
     }
@@ -474,8 +491,8 @@ hr {
 
     .modal_title_content {
         padding: 7%;
-        width: 75%;
-        max-width: 75%;
+        width: 70%;
+        max-width: 70%;
     }
 
     .modal_title_title {
@@ -491,6 +508,11 @@ hr {
     .save_title_data_btn {
         font-size: 1.5em;
         margin-top: 0;
+    }
+
+    .close_title_btn {
+        top: -4em;
+        right: -4.2em;
     }
 
     .first_work {
