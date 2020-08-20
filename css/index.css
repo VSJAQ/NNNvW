@@ -536,6 +536,10 @@ hr {
 }
 
 @media screen and (max-width: 425px){
+    .site_logo {
+        margin: 3% 0 3% -3%;
+        transform: scale(0.8);
+    }
 
     .main_topic {
         height: 23em;
